@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: whitesmoke;
+  
+}
+
+input{
+    width: 50%;
+    border-radius: 10vh;
+    /* height: 8vh; */
+padding: 0.75% 1%;
+outline:none;
+font-size: large;
+font-family: Georgia, 'Times New Roman', Times, serif;
+border: solid 4px greenyellow;
+/* background-color: black; */
+/* color: white; */
+
+}
+
+button{
+    width: 10%;
+    border-radius: 10vh;
+    /* height: 8vh; */
+padding: 0.75% 1%;
+/* outline:none; */
+border: solid 4px greenyellow;
+font-size: large;
+font-family: Georgia, 'Times New Roman', Times, serif;
+cursor: pointer;
+/* background-color: black; */
+/* color: white; */
+}
+
+.Weather{
+    margin: 20px auto 0;
+    width: 30%;
+    height: 60px;
+    background-image: linear-gradient( greenyellow,rgb(42, 170, 142),cyan);
+    border-radius: 5vh;
+    text-align: center;
+    padding: 40px 35px;
+
+   
+}
+.Weather2{
+    margin: 30px auto 0;
+    width: 30%;
+    height:200px;
+    background-image: linear-gradient( greenyellow,rgb(42, 170, 142),cyan);
+    border-radius: 5vh;
+    text-align: center;
+    padding: 40px 35px;
+
+   
+}
+@keyframes blink {
+    50%{
+        opacity: 0;
+        
+    }    
+    80%{
+        opacity: 0.5;
+    }
+ 
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Update</title>
+</head>  <link rel="stylesheet" href="index.css">
+<body>
+    <center> 
+        <h1 style="font-size: 75px; animation:blink 1s linear infinite;  color:white; cursor:pointer" >Weather Update!!</h1>
+    <img src="clear.png">
+    <img src="clouds.png">
+    <img src="drizzle.png">
+    <img src="rain.png">
+    <img src="snow.png">
+    <img src="mist.png">
+    <input placeholder="Enter Location" id="PlaceName" type="text" style="margin-top: 10px;">
+    <button onclick="showWeather()" id="searchBtn">SEARCH</button>
+    
+<div class="Weather"  >
+<h1 id="Name" style="font-size: 40px; text-align:center;"> Location</h1>
+</div>
+<div class="Weather2">
+<!-- <img src="clear.png"class="weather_icon"> -->
+<h2 id="temp" style="opacity: 80%">TEMPRATURE</h2>
+<h2 id="humid" style="opacity: 80%">HUMIDITY</h2>
+<h2 id="feels" style="opacity: 80%"> FEELS LIKE</h2>
+<h3 id="speed" style="opacity: 80%">WIND SPEED </h3>
+
+
+</div>
+    
+
+    </center>
+
+    <script src="index.js"></script>
+</body>
+</html>
